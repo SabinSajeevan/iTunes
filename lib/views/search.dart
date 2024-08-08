@@ -92,6 +92,7 @@ class SearchScreenState extends ConsumerState<SearchScreen> {
                   height: 30,
                 ),
                 TextFormField(
+                  key: const ValueKey("search"),
                   validator: (value) {
                     if (value!.isEmpty) {
                       return "Field can't be empty!";
@@ -127,6 +128,7 @@ class SearchScreenState extends ConsumerState<SearchScreen> {
                   height: 50,
                 ),
                 ElevatedButton(
+                  key: const ValueKey("submit"),
                   onPressed: () {
                     onButtonPressed(context: context);
                   },

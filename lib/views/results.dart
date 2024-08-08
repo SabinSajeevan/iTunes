@@ -99,6 +99,7 @@ class ResultsScreenState extends ConsumerState<ResultsScreen> {
               children: [
                 Expanded(
                   child: ElevatedButton(
+                    key: const ValueKey("gridView"),
                     style: ElevatedButton.styleFrom(
                         elevation: 0,
                         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -117,6 +118,7 @@ class ResultsScreenState extends ConsumerState<ResultsScreen> {
                 ),
                 Expanded(
                   child: ElevatedButton(
+                    key: const ValueKey("listView"),
                     style: ElevatedButton.styleFrom(
                         elevation: 0,
                         tapTargetSize: MaterialTapTargetSize.shrinkWrap,

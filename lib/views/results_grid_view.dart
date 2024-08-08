@@ -28,6 +28,7 @@ class ResultsGridViewScreen extends StatelessWidget {
         itemInSectionBuilder: (_, indexPath) {
           final data = valuesList[indexPath.section].itemsList[indexPath.index];
           return InkWell(
+            key: ValueKey("grid_item_${indexPath.index}"),
             borderRadius: BorderRadius.circular(8),
             onTap: () {
               context.pushNamed(RoutePath.description.name, extra: data);

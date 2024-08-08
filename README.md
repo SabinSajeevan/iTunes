@@ -38,16 +38,30 @@ This project utilizes the following Dart/Flutter packages:
 To run this project, follow these steps:
 
 1. **Clone the repository:**
-   git clone https://github.com/SabinSajeevan/iTunes.git
-   cd itunes
-   flutter pub get
-   flutter run
+ </br> git clone https://github.com/SabinSajeevan/iTunes.git
+</br> cd itunes
+  </br> flutter pub get
+  </br> flutter run
 
 ## Testing
 
-Integration tests have been implemented to ensure the app's reliability. To run the tests:
+
+Integration tests have been implemented to ensure the app's reliability.
+</br>To run the tests:
 
 
 flutter test integration_test/itunes_app_test.dart
 
 ## Screenshots
+<table>
+  <tr>
+     <td><img src="https://github.com/user-attachments/assets/6c3f9702-0a8a-4e36-8a82-45e79c07b1e9"></td>
+<td><img src="https://github.com/user-attachments/assets/89a1b9c7-33eb-4b89-bae2-fedc05e56a8c"></td>
+<td><img src="https://github.com/user-attachments/assets/d92d87b3-c733-497e-a7ee-9998d293d26a"></td></tr>
+<tr>
+   <td><img src="https://github.com/user-attachments/assets/6c933bec-2d31-45f4-bbf4-5708995cdcdd"></td>
+   
+   <td><img src="https://github.com/user-attachments/assets/91f19587-1eda-48cf-af23-c297141d72d8"></td>
+
+   <td><img src="https://github.com/user-attachments/assets/cdaed869-2ee8-4a50-be19-5d3a99484d7d"></td>
+</tr></table>
